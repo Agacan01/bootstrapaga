@@ -348,6 +348,7 @@ header .menu nav a:hover {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
+  color: white;
 }
 @media screen and (max-width: 992px) {
   #about .box {
@@ -430,18 +431,25 @@ header .menu nav a:hover {
   background-color: rgba(192, 192, 192, 0.1254901961);
 }
 #our .textbox h1 {
-  font-size: 40px;
+  font-size: 50px;
+  margin-bottom: 16px;
 }
 #our .textbox h3 {
   font-size: 17px;
   margin-bottom: 40px;
   font-style: italic;
 }
+#our .textbox h2 {
+  font-size: 30px;
+}
+#our .textbox h4 {
+  font-size: 18px;
+}
 #our .textbox h1, #our .textbox h2 {
   font-weight: 700;
 }
 #our .textbox h1, #our .textbox h2 {
-  line-height: 2;
+  line-height: 1.2;
 }
 #our .box .imgbox {
   width: 220px;
@@ -467,8 +475,8 @@ header .menu nav a:hover {
   background-color: #1a1919;
   color: white;
   border-radius: 22px;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   font-size: 17px;
   margin: 5px 0 0;
 }
@@ -476,32 +484,31 @@ header .menu nav a:hover {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  margin-top: 50px;
+  margin: 40px 0 50px;
 }
 @media screen and (max-width: 576px) {
   #our .textbox h1 {
-    font-size: 35px;
+    font-size: 50px;
+  }
+  #our .textbox h3 {
+    font-size: 18px;
   }
   #our .textbox p {
-    margin-top: 10px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 768px) {
-  #our .textbox h3 {
-    font-size: 12px;
-  }
   #our .textbox p {
     padding: 0;
+    margin: 10px 0 50px;
   }
   #our .box ul li .icon {
-    font-size: 12px;
-    width: 25px;
-    height: 25px;
+    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 992px) {
   #our .textbox p {
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 
