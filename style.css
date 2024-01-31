@@ -143,6 +143,28 @@ header .menu nav a:hover {
 #services .textbox {
   padding-bottom: 50px;
 }
+#services .textbox h1 {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+#services .textbox h3 {
+  margin: 20px 0 20px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  color: #6c757d;
+}
+#services .textbox h2 {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+#services .textbox h4 {
+  color: #6c757d;
+  font-size: 18px;
+  line-height: 1.7;
+}
 #services .box {
   display: flex;
   justify-content: center;
@@ -151,10 +173,28 @@ header .menu nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 64px;
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+  background-color: #faca08;
 }
 @media screen and (max-width: 768px) {
   #services .textbox {
     padding: 0 0 50px;
+  }
+  #services .textbox h1 {
+    font-size: 45px;
+  }
+  #services .textbox h3 {
+    font-size: 20px;
+  }
+  #services .textbox h2 {
+    font-size: 30px;
+  }
+  #services .textbox h4 {
+    font-size: 25px;
   }
 }
 
@@ -164,6 +204,21 @@ header .menu nav a:hover {
 #portfolio .textbox {
   padding-top: 40px;
   text-align: center;
+}
+#portfolio .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+#portfolio .textbox h1:hover {
+  cursor: text;
+}
+#portfolio .textbox h3 {
+  font-size: 18px;
+  color: #6c757d;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 50px;
 }
 #portfolio .textbox h2 {
   font-size: 29px;
@@ -260,6 +315,13 @@ header .menu nav a:hover {
   color: #828080;
   line-height: 1.4;
 }
+#about .box .imgbox {
+  width: 180px;
+  height: 180px;
+  border: 6px solid #e9ecef;
+  border-radius: 50%;
+  overflow: hidden;
+}
 #about .right {
   justify-content: end;
   margin: 0 100px 100px 0;
@@ -270,6 +332,13 @@ header .menu nav a:hover {
 #about .yellow {
   display: flex;
   justify-content: center;
+}
+#about .story {
+  width: 180px;
+  height: 180px;
+  border: 6px solid #e9ecef;
+  border-radius: 50%;
+  background: #e9ba1f;
 }
 #about .story .minibox {
   text-align: center;
@@ -360,6 +429,20 @@ header .menu nav a:hover {
 #our {
   background-color: rgba(192, 192, 192, 0.1254901961);
 }
+#our .textbox h1 {
+  font-size: 40px;
+}
+#our .textbox h3 {
+  font-size: 17px;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+#our .textbox h1, #our .textbox h2 {
+  font-weight: 700;
+}
+#our .textbox h1, #our .textbox h2 {
+  line-height: 2;
+}
 #our .box .imgbox {
   width: 220px;
   border-radius: 50%;
@@ -381,12 +464,47 @@ header .menu nav a:hover {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background-color: #1a1919;
+  color: white;
+  border-radius: 22px;
+  width: 30px;
+  height: 30px;
+  font-size: 17px;
+  margin: 5px 0 0;
+}
+#our .textbox p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 50px;
+}
+@media screen and (max-width: 576px) {
+  #our .textbox h1 {
+    font-size: 35px;
+  }
+  #our .textbox p {
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 768px) {
+  #our .textbox h3 {
+    font-size: 12px;
+  }
   #our .textbox p {
     padding: 0;
   }
+  #our .box ul li .icon {
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+  }
 }
+@media screen and (max-width: 992px) {
+  #our .textbox p {
+    font-size: 12px;
+  }
+}
+
 #sponsors {
   padding: 60px 0;
 }
@@ -449,9 +567,14 @@ header .menu nav a:hover {
   padding: 18px;
 }
 #contact .btn {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 40px;
+  margin-top: 40px;
   background-color: #ffc021;
   opacity: 0.7;
   color: white;
+  border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
   #contact .textbox {
