@@ -445,6 +445,9 @@ header .menu nav a:hover {
 #our .textbox h4 {
   font-size: 18px;
 }
+#our .textbox h4, #our .textbox h3, #our .textbox p {
+  color: #6c757d;
+}
 #our .textbox h1, #our .textbox h2 {
   font-weight: 700;
 }
@@ -481,7 +484,7 @@ header .menu nav a:hover {
   margin: 5px 0 0;
 }
 #our .textbox p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   text-align: center;
   margin: 40px 0 50px;
@@ -493,8 +496,11 @@ header .menu nav a:hover {
   #our .textbox h3 {
     font-size: 18px;
   }
+  #our .textbox h2 {
+    margin-bottom: 10px;
+  }
   #our .textbox p {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -507,8 +513,8 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 992px) {
-  #our .textbox p {
-    font-size: 18px;
+  #our .textbox h2 {
+    margin-bottom: 10px;
   }
 }
 
